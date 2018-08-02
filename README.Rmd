@@ -1,0 +1,44 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+library(do)
+```
+# do
+
+R client for [DigitalOcean's API](https://developers.digitalocean.com)
+
+## Installation
+
+You can install the dev version from [Github](https://github.com) with:
+
+```{r, eval = FALSE}
+devtools::install_github("mkearney/do")
+```
+
+## Account
+
+```{r}
+do_account()
+```
+
+## Droplets
+
+```{r, eval = FALSE}
+do_droplet()
+```
+
+## Contributions
+
+Please note that the 'do' project is released with a [Contributor Code of
+Conduct](CODE_OF_CONDUCT.md). By contributing to this project, you agree to
+abide by its terms.
