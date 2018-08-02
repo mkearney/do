@@ -9,31 +9,34 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
   fig.path = "man/figures/README-",
-  out.width = "100%"
+  out.width = 90
 )
 library(do)
 ```
 # do
 
-R client for [DigitalOcean's API](https://developers.digitalocean.com)
+🌊 R client for [DigitalOcean's API](https://developers.digitalocean.com)
 
 ## Installation
 
 You can install the dev version from [Github](https://github.com) with:
 
 ```{r, eval = FALSE}
+## install from Github
 devtools::install_github("mkearney/do")
 ```
 
 ## Account
 
 ```{r}
+## view account info
 do_account()
 ```
 
 ## Droplets
 
 ```{r, eval = FALSE}
+## create droplet
 do_droplet()
 ```
 
